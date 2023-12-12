@@ -1,6 +1,6 @@
 import './App.css';
 import { Route, Routes } from 'react-router-dom';
-import Emoji from './Components/Emoji';
+import Fala from './Components/Fala';
 import Classic from './Components/Classic';
 import Home from './Components/Home';
 
@@ -11,7 +11,7 @@ function App() {
       <Routes>
         <Route path='/' element={<Home />} />
         <Route path='/Classic' element={<Classic />} />
-        <Route path='/Emoji' element={<Emoji />} />
+        <Route path='/Fala' element={<Fala />} />
       </Routes>
     </>
   )

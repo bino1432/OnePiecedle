@@ -1,13 +1,13 @@
 import { useNavigate } from "react-router-dom";
-import './Emoji.css'
+import './Fala.css'
 
-function Emoji() {
+function Fala() {
 
     const navigate = useNavigate();
 
     return (
         <div>
-            <h1>Emoji</h1>
+            <h1>Fala</h1>
 
             <button onClick={() => navigate('/Classic')}>
                 Classic
@@ -20,4 +20,4 @@ function Emoji() {
     );
 }
 
-export default Emoji;
+export default Fala;

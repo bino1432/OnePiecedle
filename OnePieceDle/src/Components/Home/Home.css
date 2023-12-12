@@ -1,0 +1,19 @@
+body {
+    background-image: url("../../assets/images/background.jpg");
+    background-repeat: no-repeat;
+    background-size: 1440px 783px;
+
+}
+
+.btnHome {
+    display: flex;
+    flex-direction: column;
+}
+
+.titleHome {
+    transition: ease 0.7s;
+}
+
+.titleHome:hover {
+    transform: scale(1.2);
+}

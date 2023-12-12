@@ -10,8 +10,8 @@ function Classic() {
 
             <h1>Classic</h1>
 
-            <button onClick={() => navigate('/Emoji')}>
-                Emoji
+            <button onClick={() => navigate('/Fala')}>
+                Fala
             </button>
 
             <button onClick={() => navigate('/')}>
