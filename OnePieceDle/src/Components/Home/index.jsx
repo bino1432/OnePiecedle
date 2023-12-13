@@ -11,13 +11,14 @@ function Home() {
             <h1 className='titleHome'>OnePiecedle</h1>
 
             <div className='btnHome'>
-            <button onClick={() => navigate('/Classic')}>
-                Classic
-            </button>
+                <div className='btn_classico' onClick={() => navigate('/Classic')}>
+                    <div className='btn_title'>Clássico</div>
+                    <div className='btn_description'>Use as pistas para descobrir o personagem</div>
+                </div>
 
-            <button onClick={() => navigate('/Fala')}>
-                Fala
-            </button>
+                <button onClick={() => navigate('/Fala')}>
+                    Fala
+                </button>
             </div>
         </div>
     );
